@@ -30,7 +30,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
     box-shadow: inset 0px 0px 35px -2px #55A2DD;
     border-radius: 14px;
 }
@@ -125,11 +125,8 @@
 }
 
 @media screen and (max-width: 767px) {
-    .tarjeta {
-        min-width: 99%;
+    .contenedor {
+        position: fixed;
     }
 
-    .redes {
-        padding-top: 80px;
-    }
 }
