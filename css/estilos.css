@@ -1,0 +1,135 @@
+:root {
+    --color_awaterra: #55a2dd;
+    --color_botones: #176eb0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 250px;
+}
+
+.contenedor {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta {
+    position: absolute;
+    min-height: 99%;
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    box-shadow: inset 0px 0px 35px -2px #55A2DD;
+    border-radius: 14px;
+}
+
+.cajondebtn {
+    height: 180px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.boton {
+    color: white;
+    background-color: var(--color_botones);
+    text-decoration: none;
+    width: 320px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: none;
+}
+
+.cajonopc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 180px;
+}
+
+.btnopciones {
+    color: white;
+    background-color: var(--color_botones);
+    text-decoration: none;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+/*Para dar relleno en la parte izq.al horario de atención*/
+.pie {
+    padding-left: 10px;
+}
+
+.redes {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.redes a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.redes i {
+    font-size: 45px;
+    border-radius: 10px;
+}
+
+#facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+#instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .tarjeta {
+        min-width: 99%;
+    }
+
+    .redes {
+        padding-top: 80px;
+    }
+}
