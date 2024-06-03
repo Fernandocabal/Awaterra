@@ -130,8 +130,8 @@
     color: #fff;
 }
 
-/*Estilos para smartphone*/
-@media screen and (max-width: 767px) {
+/*Estilos para smartphones*/
+@media screen and (min-width:320px) and (max-width: 768px) {
     .contenedor {
         position: fixed;
     }
@@ -141,6 +141,7 @@
     }
 
     .tarjeta {
+        min-width: 98%;
         box-shadow: inset 0px 0px 35px 20px #55A2DD;
     }
 
@@ -152,4 +153,17 @@
         width: 190px;
     }
 
+    .redes {
+        width: 340px;
+    }
+
+}
+
+/*Estilos para tablets y algunos telefonos*/
+@media screen and (min-width:769px) and (max-width: 1024px) {
+
+    .tarjeta {
+        min-width: 98%;
+        box-shadow: inset 0px 0px 35px 20px #55A2DD;
+    }
 }
