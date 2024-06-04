@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    box-shadow: inset 0px 0px 35px -2px #55A2DD;
+    /*box-shadow: inset 0px 0px 35px -2px #55A2DD;*/
     border-radius: 14px;
 }
 
@@ -142,7 +142,7 @@
 
     .tarjeta {
         min-width: 98%;
-        box-shadow: inset 0px 0px 35px 20px #55A2DD;
+        /*box-shadow: inset 0px 0px 35px 20px #55A2DD;*/
     }
 
     .boton {
@@ -164,6 +164,6 @@
 
     .tarjeta {
         min-width: 98%;
-        box-shadow: inset 0px 0px 35px 20px #55A2DD;
+        /*box-shadow: inset 0px 0px 35px 20px #55A2DD;*/
     }
 }
