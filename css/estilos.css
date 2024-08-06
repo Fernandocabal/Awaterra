@@ -8,7 +8,7 @@
 }
 
 .logo {
-    width: 250px;
+    width: 238px;
 }
 
 .contenedor {
@@ -30,13 +30,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    /*box-shadow: inset 0px 0px 35px -2px #55A2DD;*/
+    gap: 10px;
     border-radius: 14px;
 }
 
 .cajondebtn {
-    height: 180px;
+    height: 160px;
     width: 325px;
     display: flex;
     flex-direction: column;
@@ -89,7 +88,10 @@
 
 /*Para dar relleno en la parte izq.al horario de atención*/
 .pie {
-    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .redes {
@@ -142,7 +144,7 @@
 
     .tarjeta {
         min-width: 98%;
-        /*box-shadow: inset 0px 0px 35px 20px #55A2DD;*/
+        gap: 18px;
     }
 
     .boton {
@@ -150,11 +152,32 @@
     }
 
     .logo {
-        width: 190px;
+        width: 225px;
     }
 
     .redes {
+        justify-content: space-around;
+        gap: 30px;
         width: 340px;
+        height: 80px;
+    }
+
+    .redes a {
+        width: 75px;
+        height: 75px;
+    }
+
+    .redes a i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        font-size: 70px;
+    }
+
+    .pie {
+        font-size: 20px;
     }
 
 }
@@ -164,6 +187,6 @@
 
     .tarjeta {
         min-width: 98%;
-        /*box-shadow: inset 0px 0px 35px 20px #55A2DD;*/
+        gap: 18px;
     }
 }
